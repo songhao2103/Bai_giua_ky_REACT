@@ -1,0 +1,28 @@
+/* phần import các file CSS của các component */
+@import "./header.css";
+@import "./hiddenMovie";
+@import "./listMovie";
+
+/* Phần code chung */
+.main_content {
+  width: 1340px;
+  margin: 0 auto;
+  padding: 20px 85px;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.desc {
+  font-size: 16px;
+  color: #ccc;
+  font-family: Inter;
+}
+
+.title {
+  font-size: 32px;
+  color: #ccc;
+  font-family: Inter;
+}

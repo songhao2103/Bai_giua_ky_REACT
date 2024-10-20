@@ -1,0 +1,47 @@
+.hidden_movie {
+  margin-top: 30px;
+}
+
+.hidden_movie .title {
+  margin-bottom: 30px;
+}
+
+.hidden_movie .media {
+  margin-top: 30px;
+  position: relative;
+}
+
+.hidden_movie .media .image img {
+  width: 100%;
+  height: 400px;
+}
+
+.hidden_movie .media .content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 100;
+  width: 586px;
+}
+
+.hidden_movie .media .content .title_media {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hidden_movie .bgc {
+  background: linear-gradient(
+    269.96deg,
+    rgba(29, 29, 29, 0) 10%,
+    rgba(29, 29, 29, 0.8) 99.5%
+  );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
